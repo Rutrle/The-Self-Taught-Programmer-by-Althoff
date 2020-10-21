@@ -18,4 +18,6 @@ class Deck:
         return self.cards.pop()
 
 
-
+my_deck = Deck()
+for card in my_deck.cards:
+    print(card)
