@@ -36,3 +36,11 @@ class Card:
         v = self.values[self.value] + " of " \
             + self.suits[self.suit]
         return v
+
+
+card_1 = Card(2, 2)
+card_2 = Card(4, 3)
+
+print(card_1)
+
+print(card_1 > card_2)
