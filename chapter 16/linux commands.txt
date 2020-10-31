@@ -1,0 +1,9 @@
+echo text => print text
+
+python 3 => opens python in terminal
+
+history => print recent commands
+
+pwd => print working directory 
+
+cd Directory => change directory to Directory
