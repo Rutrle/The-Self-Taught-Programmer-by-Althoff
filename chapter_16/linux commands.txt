@@ -14,9 +14,7 @@ cd something => change directory to Directory named something; /something => abs
 
 ls => prints content of current working directory
 
-    - author => prints authors of files in given  directory
-
-    - a => prints even hidden files
+    -- author => prints authors of files in given  directory
 
 mkdir something => makes directory named something in current working directory
 
