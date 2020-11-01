@@ -31,3 +31,5 @@ chapter 17:
 grep something1 something2 => tries to find regular expression something1 in file named something2; case sensitive; prints whole line with searched string
     -i : search is case insensitive
     -o : doesnt print whole line with searched string
+    ^something1 => finds occurences only on the beggining of lines
+    something1$ => finds occurences only on the end of lines
