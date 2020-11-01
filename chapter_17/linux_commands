@@ -33,3 +33,5 @@ grep something1 something2 => tries to find regular expression something1 in fil
     -o : doesnt print whole line with searched string
     ^something1 => finds occurences only on the beggining of lines
     something1$ => finds occurences only on the end of lines
+
+    someth[io]ng1 => searches for every possibility in the brackets - here for something1 and for somethong1

@@ -22,3 +22,10 @@ print(m)
 
 m = re.findall("idea.$", zen, re.MULTILINE)
 print(m)
+
+
+string = "Two too."
+
+m = re.findall("t[wo]o", string, re.IGNORECASE)
+
+print(m)
