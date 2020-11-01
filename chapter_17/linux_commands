@@ -1,0 +1,33 @@
+chapter 16:
+
+
+echo something => print something
+
+python 3 => opens python in terminal
+
+history => print recent commands
+
+pwd => print working directory 
+
+cd something => change directory to Directory named something; /something => absolute path, something => relative path
+                cd .. => change directory to one level up the tree
+                cd /mnt/c => change directory to windows dic C
+
+ls => prints content of current working directory
+
+    - author => prints authors of files in given  directory
+
+    - a => prints even hidden files
+
+mkdir something => makes directory named something in current working directory
+
+smdir something => removes directory named something in current working directory
+
+whoami => prints current user
+
+sudo something => execute
+
+chapter 17:
+grep something1 something2 => tries to find regular expression something1 in file named something2; case sensitive; prints whole line with searched string
+    -i : search is case insensitive
+    -o : doesnt print whole line with searched string
