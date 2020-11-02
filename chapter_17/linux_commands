@@ -36,3 +36,5 @@ grep something1 something2 => tries to find regular expression something1 in fil
 
     someth[io]ng1 => searches for every possibility in the brackets - here for something1 and for somethong1
     [[:digit:]] => when passed as something1 grep finds all digits 
+    * => any number of symbols before, like tw* would find tw, twww, twwwwww and so on
+    . => any symbol, when combined with *,, for example __.*__ finds anything that begins and ends with __
