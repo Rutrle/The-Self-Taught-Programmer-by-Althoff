@@ -38,3 +38,4 @@ grep something1 something2 => tries to find regular expression something1 in fil
     [[:digit:]] => when passed as something1 grep finds all digits 
     * => any number of symbols before, like tw* would find tw, twww, twwwwww and so on
     . => any symbol, when combined with *,, for example __.*__ finds anything that begins and ends with __
+    \\char => escape character char
