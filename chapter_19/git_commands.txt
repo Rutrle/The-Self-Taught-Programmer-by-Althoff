@@ -1,0 +1,9 @@
+git clone URL => clones repository from  URL
+git init => initialize repository in working directory
+
+git remote -v => returns URL of the central repository to which is local repository linked
+
+git status => returns state of the working directory and changes in init
+
+git push => pushes changes from the local repository to central repository
+git pull => updates local repository with changes staged in central repository
