@@ -7,3 +7,15 @@ git status => returns state of the working directory and changes in init
 
 git push => pushes changes from the local repository to central repository
 git pull => updates local repository with changes staged in central repository
+
+git add file_path => stages file with file_path, if . is used, stage everything new in working directory
+
+git reset file_path => unstages file with file_path
+
+git commit -m "message" => commits staged changes with message to local repository
+
+git log => returns history of commits
+
+git checkout comit_number => switch project to state in which it was after commit of given comit_number
+
+git diff => shows the difference between local and central repository
