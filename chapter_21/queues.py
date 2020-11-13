@@ -14,3 +14,20 @@ class Queue:
 
     def size(self):
         return len(self.items)
+
+
+a_queue = Queue()
+print(a_queue.is_empty())
+
+
+for i in range(5):
+    a_queue.enqueue(i)
+
+print(a_queue.is_empty())
+print(a_queue.size())
+
+for i in range(a_queue.size()):
+    print(a_queue.dequeue())
+
+print(a_queue.is_empty())
+print(a_queue.size())
