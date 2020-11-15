@@ -32,9 +32,9 @@ def hangman(word):
 
     if not win:
         print("\n".join(stages[0:wrong]))
-        print("You lose' it was {}.".format(word))
+        print("You lose it was {}.".format(word))
 
 
-word_list = ['cat', 'dog', 'castle']
+word_list = ['cat', 'dog', 'castle', 'worm', 'crab', 'octopus']
 chooser = random.randint(0, len(word_list))
 hangman(word_list[chooser])
